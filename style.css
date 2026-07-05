@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f3f4f6;
+    color: #1f2937;
+}
+
+header {
+    padding: 16px 24px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0 0 12px;
+    font-size: 2rem;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+article {
+    text-align: center;    border: 2px solid #d1d5db;
+    border-radius: 18px;
+    background: #ffffff;
+    padding: 18px;
+    box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+article img {
+    border-radius: 14px;
+    width: 190px;
+    height: 190px;
+    object-fit: cover;
+}
+
+article h1,
+article h2 {
+    margin: 0;
+}
+
+article h1:first-of-type {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+article h1:last-of-type {
+    font-size: 1rem;
+    color: #334155;
+}
+
+article h2 {
+    font-size: 0.95rem;
+    color: #64748b;
+}
+
+article button {
+    cursor: pointer;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 999px;
+    background: #2563eb;
+    color: #ffffff;
+    font-weight: 600;
+    transition: background 0.2s ease;
+}
+
+article button:hover {
+    background: #1d4ed8;
+}
+
+a{
+    text-decoration: none;
+    color:whitesmoke;
+    font-family: fantasy;
+    border:#1d4ed8 ;
+    border-radius: 19px;
+    background-color:#1d4ed8;
+margin: auto;
+padding: 16px;
+}
+form{
+    background-color: #1d4ed8;
+    border: #2563eb;
+    padding: 20px;
+    text-align: center;
+    border-radius: 11px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+form button{
+    margin: 10px;
+     cursor: pointer;
+    padding: 10px 22px;
+    border: 2px  solid white;
+    border-radius: 999px;
+    background: #2563eb;
+    color: #ffffff;
+    font-weight: 600;
+    transition: background 0.2s ease;
+    width: 50%;
+}
+form button:hover{
+    background-color: aliceblue;
+    color: #1d4ed8;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.emma{
+     margin: 10px;
+     cursor: pointer;
+    padding: 38px;
+    border: 2px  solid white;
+    border-radius: 12px;
+    background: #2563eb;
+    color: #ffffff;
+    font-weight: 600;
+    transition: background 0.2s ease;
+
+}
